@@ -1,12 +1,27 @@
-# thumbnail
-Ürun ekleme
-fetch('https://dummyjson.com/products/add', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    title: 'BMW Pencil',
-    /* other product data */
-  })
-})
-.then(res => res.json())
-.then(console.log);
+    {
+
+        "id": 1,
+
+  "title": "iP",
+
+  "description": "An apple mobile which is nothing like apple",
+
+  "price": 549,
+
+  "discountPercentage": 12.96,
+
+  "rating": 4.69,
+
+  "stock": 94,
+
+  "brand": "Apple",
+
+  "category": "smartphones",
+
+  "thumbnail": "https://i.dummyjson.com/data/products/1/1.jpg",
+
+  "images": [
+
+    "https://i.dummyjson.com/data/products/1/1.jpg",  ]
+
+    },
